@@ -7,5 +7,6 @@
 *.iml
 
 /target
+*/target
 
 .idea
