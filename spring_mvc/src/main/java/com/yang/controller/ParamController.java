@@ -19,6 +19,11 @@ public class ParamController {
         return name + age;
     }
 
+    @GetMapping("/paramDef")
+    String paramDef(@RequestParam(value = "name",defaultValue = "xxx") String username){
+        return username;
+    }
+
     @GetMapping("/paramObj")
     String paramObj(User user){
         return user.toString();
