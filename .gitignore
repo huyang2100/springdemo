@@ -3,3 +3,7 @@
 /spring_aop_anno/target/
 /spring_jdbc_tx/target/
 /spring_mvc/target/
+
+*.iml
+
+/target
