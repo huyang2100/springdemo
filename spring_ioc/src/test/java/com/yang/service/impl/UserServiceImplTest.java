@@ -1,10 +1,8 @@
 package com.yang.service.impl;
 
 import com.yang.service.UserService;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @Description:

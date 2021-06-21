@@ -1,12 +1,11 @@
 package com.yang.dao.impl;
 
 import com.yang.dao.UserDao;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.sql.DataSource;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @Description:
