@@ -2,6 +2,7 @@ package com.yang.controller;
 
 import com.yang.bean.User;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -18,5 +19,10 @@ public class DemoController {
         user.setUsername("胡洋");
         user.setPassword("Demo");
         return user;
+    }
+
+    @GetMapping("/agent")
+    public String getAgentHeader(@RequestHeader("user-agent") String name){
+        return name;
     }
 }
