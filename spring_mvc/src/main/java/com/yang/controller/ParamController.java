@@ -38,4 +38,10 @@ public class ParamController {
     User paramList(@RequestBody List<User> userList){
         return userList.get(0);
     }
+
+    @GetMapping(value = "/paramRestful/{name}")
+    String paramRestful(@PathVariable("name") String username){
+        System.out.println(username);
+        return username;
+    }
 }
